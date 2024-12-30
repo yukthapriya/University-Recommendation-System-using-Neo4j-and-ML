@@ -1,0 +1,11 @@
+146028888064,RETURN,-1,,return self,9,21,2
+146028888065,RETURN,-1,,return result,9,32,5
+146028888066,RETURN,-1,,"return class Neo4jConnection<meta>(...).<fakeNew>(uri, user, pwd)",18,13,1
+146028888067,RETURN,-1,,return __newInstance,18,13,3
+146028888068,RETURN,-1,,"return __init__(self, uri, user, pwd)",5,13,1
+146028888069,RETURN,-1,,return connect(self),5,19,1
+146028888070,RETURN,-1,,return close(self),5,23,1
+146028888071,RETURN,-1,,"return query(self, query, parameters, db)",5,27,1
+146028888072,RETURN,-1,,return render_template('index.html'),5,70,1
+146028888073,RETURN,-1,,"return render_template('index.html', college_name=college_name, recommendations=recommendations_data)",5,83,5
+146028888074,RETURN,-1,,return pd.DataFrame(result),5,153,4

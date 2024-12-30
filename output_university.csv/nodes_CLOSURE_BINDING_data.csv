@@ -1,0 +1,8 @@
+34359738368,CLOSURE_BINDING,main.py:<module>.index:render_template,render_template,BY_REFERENCE
+34359738369,CLOSURE_BINDING,main.py:<module>.recommend:request,request,BY_REFERENCE
+34359738370,CLOSURE_BINDING,main.py:<module>.recommend:neo4j_conn,neo4j_conn,BY_REFERENCE
+34359738371,CLOSURE_BINDING,main.py:<module>.recommend:get_recommendations,get_recommendations,BY_REFERENCE
+34359738372,CLOSURE_BINDING,main.py:<module>.recommend:render_template,render_template,BY_REFERENCE
+34359738373,CLOSURE_BINDING,main.py:<module>.get_recommendations:pd,pd,BY_REFERENCE
+34359738374,CLOSURE_BINDING,main.py:<module>.Neo4jConnection.connect:GraphDatabase,GraphDatabase,BY_REFERENCE
+34359738375,CLOSURE_BINDING,main.py:<module>.Neo4jConnection.query:list,list,BY_REFERENCE

@@ -1,0 +1,4 @@
+180388626432,TYPE_REF,2,,__builtins__.list,1,,1,2,,__builtin.list<meta>
+180388626433,TYPE_REF,1,,class Neo4jConnection<meta>(...),18,,13,1,,main.py:<module>.Neo4jConnection<meta>
+180388626434,TYPE_REF,0,,class Neo4jConnection<meta>(...),18,,13,1,,main.py:<module>.Neo4jConnection<meta>
+180388626435,TYPE_REF,2,,class Neo4jConnection<meta>(...),1,,12,2,,main.py:<module>.Neo4jConnection<meta>

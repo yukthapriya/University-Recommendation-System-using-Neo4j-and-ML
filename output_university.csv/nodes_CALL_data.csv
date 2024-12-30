@@ -1,0 +1,245 @@
+30064771072,CALL,-1,,list = __builtins__.list,1,STATIC_DISPATCH,,1,<operator>.assignment,<operator>.assignment,1,,,ANY
+30064771073,CALL,2,,"import(flask, Flask)",1,DYNAMIC_DISPATCH,,3,<unknownFullName>,import,2,,,ANY
+30064771074,CALL,-1,,"Flask = import(flask, Flask)",1,STATIC_DISPATCH,,3,<operator>.assignment,<operator>.assignment,1,,,ANY
+30064771075,CALL,2,,"import(flask, render_template)",1,DYNAMIC_DISPATCH,,3,<unknownFullName>,import,2,,,ANY
+30064771076,CALL,-1,,"render_template = import(flask, render_template)",1,STATIC_DISPATCH,,3,<operator>.assignment,<operator>.assignment,2,,,ANY
+30064771077,CALL,2,,"import(flask, request)",1,DYNAMIC_DISPATCH,,3,<unknownFullName>,import,2,,,ANY
+30064771078,CALL,-1,,"request = import(flask, request)",1,STATIC_DISPATCH,,3,<operator>.assignment,<operator>.assignment,3,,,ANY
+30064771079,CALL,2,,"import(neo4j, GraphDatabase)",1,DYNAMIC_DISPATCH,,4,<unknownFullName>,import,2,,,ANY
+30064771080,CALL,-1,,"GraphDatabase = import(neo4j, GraphDatabase)",1,STATIC_DISPATCH,,4,<operator>.assignment,<operator>.assignment,3,,,ANY
+30064771081,CALL,2,,"import(, pandas, pd)",1,DYNAMIC_DISPATCH,,5,<unknownFullName>,import,2,,,ANY
+30064771082,CALL,-1,,"pd = import(, pandas, pd)",1,STATIC_DISPATCH,,5,<operator>.assignment,<operator>.assignment,4,,,ANY
+30064771083,CALL,2,,"import(sklearn.preprocessing, MinMaxScaler)",1,DYNAMIC_DISPATCH,,6,<unknownFullName>,import,2,,,ANY
+30064771084,CALL,-1,,"MinMaxScaler = import(sklearn.preprocessing, MinMaxScaler)",1,STATIC_DISPATCH,,6,<operator>.assignment,<operator>.assignment,5,,,ANY
+30064771085,CALL,2,,Flask(__name__),7,DYNAMIC_DISPATCH,,8,flask.py:<module>.Flask.__init__,Flask,2,,,ANY
+30064771086,CALL,-1,,app = Flask(__name__),1,STATIC_DISPATCH,,8,<operator>.assignment,<operator>.assignment,6,,,ANY
+30064771087,CALL,1,,self._uri,9,STATIC_DISPATCH,flask.py:<module>.request.<operator>.fieldAccess;<operator>.fieldAccess,14,<operator>.fieldAccess,<operator>.fieldAccess,1,,,ANY
+30064771088,CALL,-1,,self._uri = uri,9,STATIC_DISPATCH,,14,<operator>.assignment,<operator>.assignment,1,,,ANY
+30064771089,CALL,1,,self._user,9,STATIC_DISPATCH,flask.py:<module>.request.<operator>.fieldAccess;<operator>.fieldAccess,15,<operator>.fieldAccess,<operator>.fieldAccess,1,,,ANY
+30064771090,CALL,-1,,self._user = user,9,STATIC_DISPATCH,,15,<operator>.assignment,<operator>.assignment,2,,,ANY
+30064771091,CALL,1,,self._password,9,STATIC_DISPATCH,flask.py:<module>.request.<operator>.fieldAccess;<operator>.fieldAccess,16,<operator>.fieldAccess,<operator>.fieldAccess,1,,,ANY
+30064771092,CALL,-1,,self._password = pwd,9,STATIC_DISPATCH,,16,<operator>.assignment,<operator>.assignment,3,,,ANY
+30064771093,CALL,1,,self._driver,9,STATIC_DISPATCH,flask.py:<module>.request.<operator>.fieldAccess;<operator>.fieldAccess,17,<operator>.fieldAccess,<operator>.fieldAccess,1,,,ANY
+30064771094,CALL,-1,,self._driver = None,9,STATIC_DISPATCH,,17,<operator>.assignment,<operator>.assignment,4,,,ANY
+30064771095,CALL,-1,,__init__ = def __init__(...),5,STATIC_DISPATCH,,13,<operator>.assignment,<operator>.assignment,1,,,ANY
+30064771096,CALL,1,,self._uri,45,STATIC_DISPATCH,flask.py:<module>.request.<operator>.fieldAccess;<operator>.fieldAccess,20,<operator>.fieldAccess,<operator>.fieldAccess,2,,,ANY
+30064771097,CALL,1,,self._user,62,STATIC_DISPATCH,flask.py:<module>.request.<operator>.fieldAccess;<operator>.fieldAccess,20,<operator>.fieldAccess,<operator>.fieldAccess,1,,,ANY
+30064771098,CALL,2,,self._password,74,STATIC_DISPATCH,flask.py:<module>.request.<operator>.fieldAccess;<operator>.fieldAccess,20,<operator>.fieldAccess,<operator>.fieldAccess,2,,,ANY
+30064771099,CALL,-1,auth,"(self._user, self._password)",61,STATIC_DISPATCH,,20,<operator>.tupleLiteral,<operator>.tupleLiteral,3,,,ANY
+30064771100,CALL,-1,,GraphDatabase.driver,24,STATIC_DISPATCH,flask.py:<module>.request.<operator>.fieldAccess;<operator>.fieldAccess,20,<operator>.fieldAccess,<operator>.fieldAccess,0,,,ANY
+30064771101,CALL,2,,"GraphDatabase.driver(self._uri, auth = (self._user, self._password))",24,DYNAMIC_DISPATCH,,20,neo4j.py:<module>.GraphDatabase.driver,driver,2,,,ANY
+30064771102,CALL,1,,self._driver,9,STATIC_DISPATCH,flask.py:<module>.request.<operator>.fieldAccess;<operator>.fieldAccess,20,<operator>.fieldAccess,<operator>.fieldAccess,1,,,ANY
+30064771103,CALL,-1,,"self._driver = GraphDatabase.driver(self._uri, auth = (self._user, self._password))",9,STATIC_DISPATCH,,20,<operator>.assignment,<operator>.assignment,1,,,ANY
+30064771104,CALL,-1,,connect = def connect(...),5,STATIC_DISPATCH,,19,<operator>.assignment,<operator>.assignment,2,,,ANY
+30064771105,CALL,1,,self._driver,12,STATIC_DISPATCH,flask.py:<module>.request.<operator>.fieldAccess;<operator>.fieldAccess,24,<operator>.fieldAccess,<operator>.fieldAccess,1,,,ANY
+30064771106,CALL,-1,,self._driver is not None,12,STATIC_DISPATCH,,24,<operator>.isNot,<operator>.isNot,1,,,ANY
+30064771107,CALL,2,,self._driver,13,STATIC_DISPATCH,flask.py:<module>.request.<operator>.fieldAccess;<operator>.fieldAccess,25,<operator>.fieldAccess,<operator>.fieldAccess,2,,,ANY
+30064771108,CALL,-1,,tmp0 = self._driver,13,STATIC_DISPATCH,,25,<operator>.assignment,<operator>.assignment,1,,,ANY
+30064771109,CALL,-1,,tmp0.close,13,STATIC_DISPATCH,flask.py:<module>.request.<operator>.fieldAccess;<operator>.fieldAccess,25,<operator>.fieldAccess,<operator>.fieldAccess,0,,,ANY
+30064771110,CALL,-1,,tmp0.close(),13,DYNAMIC_DISPATCH,,25,__builtin.None.close,close,2,,,ANY
+30064771111,CALL,-1,,close = def close(...),5,STATIC_DISPATCH,,23,<operator>.assignment,<operator>.assignment,3,,,ANY
+30064771112,CALL,1,,self._driver,16,STATIC_DISPATCH,flask.py:<module>.request.<operator>.fieldAccess;<operator>.fieldAccess,28,<operator>.fieldAccess,<operator>.fieldAccess,1,,,ANY
+30064771113,CALL,1,,self._driver is not None,16,STATIC_DISPATCH,,28,<operator>.isNot,<operator>.isNot,1,,,ANY
+30064771114,CALL,-1,,"assert self._driver is not None, ""Driver not initialized!""",9,STATIC_DISPATCH,,28,<operator>.assert,<operator>.assert,1,,,ANY
+30064771115,CALL,2,,self._driver,19,STATIC_DISPATCH,flask.py:<module>.request.<operator>.fieldAccess;<operator>.fieldAccess,29,<operator>.fieldAccess,<operator>.fieldAccess,2,,,ANY
+30064771116,CALL,-1,,tmp1 = self._driver,19,STATIC_DISPATCH,,29,<operator>.assignment,<operator>.assignment,1,,,ANY
+30064771117,CALL,-1,,tmp1.session,19,STATIC_DISPATCH,flask.py:<module>.request.<operator>.fieldAccess;<operator>.fieldAccess,29,<operator>.fieldAccess,<operator>.fieldAccess,0,,,ANY
+30064771118,CALL,-1,,tmp1.session(database = db),19,DYNAMIC_DISPATCH,,29,__builtin.None.session,session,2,,,ANY
+30064771119,CALL,2,,self._driver,64,STATIC_DISPATCH,flask.py:<module>.request.<operator>.fieldAccess;<operator>.fieldAccess,29,<operator>.fieldAccess,<operator>.fieldAccess,2,,,ANY
+30064771120,CALL,-1,,tmp2 = self._driver,64,STATIC_DISPATCH,,29,<operator>.assignment,<operator>.assignment,1,,,ANY
+30064771121,CALL,-1,,tmp2.session,64,STATIC_DISPATCH,flask.py:<module>.request.<operator>.fieldAccess;<operator>.fieldAccess,29,<operator>.fieldAccess,<operator>.fieldAccess,0,,,ANY
+30064771122,CALL,-1,,tmp2.session(),64,DYNAMIC_DISPATCH,,29,__builtin.None.session,session,2,,,ANY
+30064771123,CALL,2,,"tmp1 = self._driver
+tmp1.session(database = db) if db else tmp2 = self._driver
+tmp2.session()",19,STATIC_DISPATCH,,29,<operator>.conditional,<operator>.conditional,2,,,ANY
+30064771124,CALL,-1,,"session = tmp1 = self._driver
+tmp1.session(database = db) if db else tmp2 = self._driver
+tmp2.session()",9,STATIC_DISPATCH,,29,<operator>.assignment,<operator>.assignment,2,,,ANY
+30064771125,CALL,-1,,session.run,23,STATIC_DISPATCH,flask.py:<module>.request.<operator>.fieldAccess;<operator>.fieldAccess,30,<operator>.fieldAccess,<operator>.fieldAccess,0,,,ANY
+30064771126,CALL,1,,"session.run(query, parameters)",23,DYNAMIC_DISPATCH,,30,__builtin.bool.run,run,1,,,ANY
+30064771127,CALL,2,,"list(session.run(query, parameters))",18,DYNAMIC_DISPATCH,,30,__builtin.list<meta>,list,2,,,ANY
+30064771128,CALL,-1,,"result = list(session.run(query, parameters))",9,STATIC_DISPATCH,,30,<operator>.assignment,<operator>.assignment,3,,,ANY
+30064771129,CALL,-1,,session.close,9,STATIC_DISPATCH,flask.py:<module>.request.<operator>.fieldAccess;<operator>.fieldAccess,31,<operator>.fieldAccess,<operator>.fieldAccess,0,,,ANY
+30064771130,CALL,-1,,session.close(),9,DYNAMIC_DISPATCH,,31,__builtin.bool.close,close,4,,,ANY
+30064771131,CALL,-1,,query = def query(...),5,STATIC_DISPATCH,,27,<operator>.assignment,<operator>.assignment,4,,,ANY
+30064771132,CALL,-1,,class Neo4jConnection<meta>(...).<fakeNew>,18,STATIC_DISPATCH,flask.py:<module>.request.<operator>.fieldAccess;<operator>.fieldAccess,13,<operator>.fieldAccess,<operator>.fieldAccess,0,,,ANY
+30064771133,CALL,1,,"class Neo4jConnection<meta>(...).<fakeNew>(uri, user, pwd)",18,DYNAMIC_DISPATCH,,13,<unknownFullName>,,1,,,ANY
+30064771134,CALL,2,,,18,STATIC_DISPATCH,,13,<operator>.alloc,<operator>.alloc,2,,,ANY
+30064771135,CALL,-1,,__newInstance = ,18,STATIC_DISPATCH,,13,<operator>.assignment,<operator>.assignment,1,,,ANY
+30064771136,CALL,-1,,cls.__init__,18,STATIC_DISPATCH,flask.py:<module>.request.<operator>.fieldAccess;<operator>.fieldAccess,13,<operator>.fieldAccess,<operator>.fieldAccess,0,,,ANY
+30064771137,CALL,-1,,"cls.__init__(__newInstance, uri, user, pwd)",18,DYNAMIC_DISPATCH,,13,<unknownFullName>,__init__,2,,,ANY
+30064771138,CALL,1,,"__init__(self, uri, user, pwd)",5,STATIC_DISPATCH,main.py:<module>.Neo4jConnection.__init__,13,main.py:<module>.Neo4jConnection.__init__,main.py:<module>.Neo4jConnection.__init__,1,,,ANY
+30064771139,CALL,1,,connect(self),5,STATIC_DISPATCH,main.py:<module>.Neo4jConnection.connect,19,main.py:<module>.Neo4jConnection.connect,main.py:<module>.Neo4jConnection.connect,1,,,ANY
+30064771140,CALL,1,,close(self),5,STATIC_DISPATCH,main.py:<module>.Neo4jConnection.close,23,main.py:<module>.Neo4jConnection.close,main.py:<module>.Neo4jConnection.close,1,,,ANY
+30064771141,CALL,1,,"query(self, query, parameters, db)",5,STATIC_DISPATCH,main.py:<module>.Neo4jConnection.query,27,main.py:<module>.Neo4jConnection.query,main.py:<module>.Neo4jConnection.query,1,,,ANY
+30064771142,CALL,-1,,def <body>(...)(),1,DYNAMIC_DISPATCH,,12,<unknownFullName>,,1,,,ANY
+30064771143,CALL,-1,,Neo4jConnection = class Neo4jConnection<meta>(...),1,STATIC_DISPATCH,,12,<operator>.assignment,<operator>.assignment,2,,,ANY
+30064771144,CALL,2,,"import(, os)",1,DYNAMIC_DISPATCH,,36,<unknownFullName>,import,2,,,ANY
+30064771145,CALL,-1,,"os = import(, os)",1,STATIC_DISPATCH,,36,<operator>.assignment,<operator>.assignment,8,,,ANY
+30064771146,CALL,-1,,os.getcwd,7,STATIC_DISPATCH,flask.py:<module>.request.<operator>.fieldAccess;<operator>.fieldAccess,38,<operator>.fieldAccess,<operator>.fieldAccess,0,,,ANY
+30064771147,CALL,2,,os.getcwd(),7,DYNAMIC_DISPATCH,,38,os.py:<module>.getcwd,getcwd,2,,,ANY
+30064771148,CALL,-1,,cwd = os.getcwd(),1,STATIC_DISPATCH,,38,<operator>.assignment,<operator>.assignment,9,,,ANY
+30064771149,CALL,1,,cwd + '\\university_data.csv',19,STATIC_DISPATCH,,39,<operator>.addition,<operator>.addition,2,,,ANY
+30064771150,CALL,-1,,pd.read_csv,7,STATIC_DISPATCH,flask.py:<module>.request.<operator>.fieldAccess;<operator>.fieldAccess,39,<operator>.fieldAccess,<operator>.fieldAccess,0,,,ANY
+30064771151,CALL,2,,pd.read_csv(cwd + '\\university_data.csv'),7,DYNAMIC_DISPATCH,,39,pandas.py:<module>.read_csv,read_csv,2,,,ANY
+30064771152,CALL,-1,,uni = pd.read_csv(cwd + '\\university_data.csv'),1,STATIC_DISPATCH,,39,<operator>.assignment,<operator>.assignment,10,,,ANY
+30064771153,CALL,1,,"['primaryPhoto', 'primaryPhotoThumb', 'sortName', 'urlName', 'aliasNames', 'nonResponderText', 'nonResponder', 'rankingSortRank', 'overallRank', 'rankingRankStatus', 'xwalkId', 'primaryKey', 'rankingNoteText', 'rankingNoteCharacter', 'rankingMaxPossibleScore', 'rankingIsTied', 'ranking', 'schoolType', 'rankingType', 'rankingDisplayName', 'region', 'isPublic']",10,STATIC_DISPATCH,,42,<operator>.listLiteral,<operator>.listLiteral,2,,,ANY
+30064771154,CALL,-1,,uni.drop,1,STATIC_DISPATCH,flask.py:<module>.request.<operator>.fieldAccess;<operator>.fieldAccess,42,<operator>.fieldAccess,<operator>.fieldAccess,0,,,ANY
+30064771155,CALL,-1,,"uni.drop(['primaryPhoto', 'primaryPhotoThumb', 'sortName', 'urlName', 'aliasNames', 'nonResponderText', 'nonResponder', 'rankingSortRank', 'overallRank', 'rankingRankStatus', 'xwalkId', 'primaryKey', 'rankingNoteText', 'rankingNoteCharacter', 'rankingMaxPossibleScore', 'rankingIsTied', 'ranking', 'schoolType', 'rankingType', 'rankingDisplayName', 'region', 'isPublic'], axis = 1, inplace = True)",1,DYNAMIC_DISPATCH,,42,pandas.py:<module>.read_csv.<returnValue>.drop,drop,11,,,ANY
+30064771156,CALL,2,,"['act-avg', 'sat-avg', 'acceptance-rate', 'hs-gpa-avg', 'businessRepScore', 'engineeringRepScore', 'enrollment', 'rankingDisplayScore']",19,STATIC_DISPATCH,,52,<operator>.listLiteral,<operator>.listLiteral,2,,,ANY
+30064771157,CALL,-1,,"columns_to_fill = ['act-avg', 'sat-avg', 'acceptance-rate', 'hs-gpa-avg', 'businessRepScore', 'engineeringRepScore', 'enrollment', 'rankingDisplayScore']",1,STATIC_DISPATCH,,52,<operator>.assignment,<operator>.assignment,12,,,ANY
+30064771158,CALL,2,,uni[column],18,STATIC_DISPATCH,,54,<operator>.indexAccess,<operator>.indexAccess,2,,,ANY
+30064771159,CALL,-1,,tmp3 = uni[column],18,STATIC_DISPATCH,,54,<operator>.assignment,<operator>.assignment,1,,,ANY
+30064771160,CALL,-1,,tmp3.mean,18,STATIC_DISPATCH,flask.py:<module>.request.<operator>.fieldAccess;<operator>.fieldAccess,54,<operator>.fieldAccess,<operator>.fieldAccess,0,,,ANY
+30064771161,CALL,-1,,tmp3.mean(),18,DYNAMIC_DISPATCH,,54,pandas.py:<module>.read_csv.<returnValue>.<indexAccess>.mean,mean,2,,,ANY
+30064771162,CALL,-1,,"mean_value = tmp3 = uni[column]
+tmp3.mean()",5,STATIC_DISPATCH,,54,<operator>.assignment,<operator>.assignment,2,,,ANY
+30064771163,CALL,2,,uni[column],5,STATIC_DISPATCH,,55,<operator>.indexAccess,<operator>.indexAccess,2,,,ANY
+30064771164,CALL,-1,,tmp4 = uni[column],5,STATIC_DISPATCH,,55,<operator>.assignment,<operator>.assignment,1,,,ANY
+30064771165,CALL,-1,,tmp4.fillna,5,STATIC_DISPATCH,flask.py:<module>.request.<operator>.fieldAccess;<operator>.fieldAccess,55,<operator>.fieldAccess,<operator>.fieldAccess,0,,,ANY
+30064771166,CALL,-1,,"tmp4.fillna(mean_value, inplace = True)",5,DYNAMIC_DISPATCH,,55,pandas.py:<module>.read_csv.<returnValue>.<indexAccess>.fillna,fillna,2,,,ANY
+30064771167,CALL,-1,,columns_to_fill.__iter__,1,STATIC_DISPATCH,flask.py:<module>.request.<operator>.fieldAccess;<operator>.fieldAccess,53,<operator>.fieldAccess,<operator>.fieldAccess,0,,,ANY
+30064771168,CALL,2,,columns_to_fill.__iter__(),1,DYNAMIC_DISPATCH,,53,__builtin.list.__iter__,__iter__,2,,,ANY
+30064771169,CALL,-1,,tmp5 = columns_to_fill.__iter__(),1,STATIC_DISPATCH,,53,<operator>.assignment,<operator>.assignment,1,,,ANY
+30064771170,CALL,-1,,tmp5.__next__,1,STATIC_DISPATCH,flask.py:<module>.request.<operator>.fieldAccess;<operator>.fieldAccess,53,<operator>.fieldAccess,<operator>.fieldAccess,0,,,ANY
+30064771171,CALL,2,,tmp5.__next__(),1,DYNAMIC_DISPATCH,,53,__builtin.list.__iter__.<returnValue>.__next__,__next__,2,,,ANY
+30064771172,CALL,-1,,column = tmp5.__next__(),1,STATIC_DISPATCH,,53,<operator>.assignment,<operator>.assignment,1,,,ANY
+30064771173,CALL,2,,"['percent-receiving-aid', 'cost-after-aid']",112,STATIC_DISPATCH,,57,<operator>.listLiteral,<operator>.listLiteral,2,,,ANY
+30064771174,CALL,2,,"uni[['percent-receiving-aid', 'cost-after-aid']]",108,STATIC_DISPATCH,,57,<operator>.indexAccess,<operator>.indexAccess,2,,,ANY
+30064771175,CALL,-1,,"tmp6 = uni[['percent-receiving-aid', 'cost-after-aid']]",108,STATIC_DISPATCH,,57,<operator>.assignment,<operator>.assignment,1,,,ANY
+30064771176,CALL,-1,,tmp6.median,108,STATIC_DISPATCH,flask.py:<module>.request.<operator>.fieldAccess;<operator>.fieldAccess,57,<operator>.fieldAccess,<operator>.fieldAccess,0,,,ANY
+30064771177,CALL,-1,,tmp6.median(),108,DYNAMIC_DISPATCH,,57,<unknownFullName>,median,2,,,ANY
+30064771178,CALL,2,,"['percent-receiving-aid', 'cost-after-aid']",56,STATIC_DISPATCH,,57,<operator>.listLiteral,<operator>.listLiteral,2,,,ANY
+30064771179,CALL,2,,"uni[['percent-receiving-aid', 'cost-after-aid']]",52,STATIC_DISPATCH,,57,<operator>.indexAccess,<operator>.indexAccess,2,,,ANY
+30064771180,CALL,-1,,"tmp7 = uni[['percent-receiving-aid', 'cost-after-aid']]",52,STATIC_DISPATCH,,57,<operator>.assignment,<operator>.assignment,1,,,ANY
+30064771181,CALL,-1,,tmp7.fillna,52,STATIC_DISPATCH,flask.py:<module>.request.<operator>.fieldAccess;<operator>.fieldAccess,57,<operator>.fieldAccess,<operator>.fieldAccess,0,,,ANY
+30064771182,CALL,-1,,"tmp7.fillna(tmp6 = uni[['percent-receiving-aid', 'cost-after-aid']]
+tmp6.median())",52,DYNAMIC_DISPATCH,,57,pandas.py:<module>.read_csv.<returnValue>.<indexAccess>.fillna,fillna,2,,,ANY
+30064771183,CALL,2,,"['percent-receiving-aid', 'cost-after-aid']",5,STATIC_DISPATCH,,57,<operator>.listLiteral,<operator>.listLiteral,2,,,ANY
+30064771184,CALL,1,,"uni[['percent-receiving-aid', 'cost-after-aid']]",1,STATIC_DISPATCH,,57,<operator>.indexAccess,<operator>.indexAccess,1,,,ANY
+30064771185,CALL,-1,,"uni[['percent-receiving-aid', 'cost-after-aid']] = tmp7 = uni[['percent-receiving-aid', 'cost-after-aid']]
+tmp7.fillna(tmp6 = uni[['percent-receiving-aid', 'cost-after-aid']]
+tmp6.median())",1,STATIC_DISPATCH,,57,<operator>.assignment,<operator>.assignment,14,,,ANY
+30064771186,CALL,-1,,"uri = ""bolt://localhost:7687""",1,STATIC_DISPATCH,,61,<operator>.assignment,<operator>.assignment,15,,,ANY
+30064771187,CALL,-1,,"username = ""neo4j""",1,STATIC_DISPATCH,,62,<operator>.assignment,<operator>.assignment,16,,,ANY
+30064771188,CALL,-1,,"password = ""root@12345""",1,STATIC_DISPATCH,,63,<operator>.assignment,<operator>.assignment,17,,,ANY
+30064771189,CALL,2,,"Neo4jConnection(uri, username, password)",14,DYNAMIC_DISPATCH,main.py:<module>.Neo4jConnection,64,main.py:<module>.Neo4jConnection.__init__,Neo4jConnection,2,,,ANY
+30064771190,CALL,-1,,"tmp8 = Neo4jConnection(uri, username, password)",14,STATIC_DISPATCH,,64,<operator>.assignment,<operator>.assignment,1,,,ANY
+30064771191,CALL,-1,,tmp8.connect,14,STATIC_DISPATCH,flask.py:<module>.request.<operator>.fieldAccess;<operator>.fieldAccess,64,<operator>.fieldAccess,<operator>.fieldAccess,0,,,ANY
+30064771192,CALL,-1,,tmp8.connect(),14,DYNAMIC_DISPATCH,Neo4jConnection.<returnValue>.connect,64,main.py:<module>.Neo4jConnection.connect,connect,2,,,ANY
+30064771193,CALL,-1,,"neo4j_conn = tmp8 = Neo4jConnection(uri, username, password)
+tmp8.connect()",1,STATIC_DISPATCH,,64,<operator>.assignment,<operator>.assignment,18,,,ANY
+30064771194,CALL,1,,render_template('index.html'),12,DYNAMIC_DISPATCH,,70,flask.py:<module>.render_template,render_template,1,,,ANY
+30064771195,CALL,-1,,app.route,2,STATIC_DISPATCH,flask.py:<module>.request.<operator>.fieldAccess;<operator>.fieldAccess,68,<operator>.fieldAccess,<operator>.fieldAccess,0,,,ANY
+30064771196,CALL,-1,,app.route('/'),2,DYNAMIC_DISPATCH,,68,flask.py:<module>.Flask.route,route,0,,,ANY
+30064771197,CALL,2,,app.route('/')(def index(...)),2,DYNAMIC_DISPATCH,,68,<unknownFullName>,,2,,,ANY
+30064771198,CALL,-1,,index = app.route('/')(def index(...)),1,STATIC_DISPATCH,,69,<operator>.assignment,<operator>.assignment,19,,,ANY
+30064771199,CALL,1,,request.form,20,STATIC_DISPATCH,flask.py:<module>.request.<operator>.fieldAccess;<operator>.fieldAccess,74,<operator>.fieldAccess,<operator>.fieldAccess,1,,,ANY
+30064771200,CALL,2,,request.form['college_name'],20,STATIC_DISPATCH,,74,<operator>.indexAccess,<operator>.indexAccess,2,,,ANY
+30064771201,CALL,-1,,college_name = request.form['college_name'],5,STATIC_DISPATCH,,74,<operator>.assignment,<operator>.assignment,1,,,ANY
+30064771202,CALL,2,,"get_recommendations(neo4j_conn, college_name)",23,DYNAMIC_DISPATCH,,77,main.py:<module>.get_recommendations,get_recommendations,2,,,ANY
+30064771203,CALL,-1,,"recommendations = get_recommendations(neo4j_conn, college_name)",5,STATIC_DISPATCH,,77,<operator>.assignment,<operator>.assignment,2,,,ANY
+30064771204,CALL,-1,,neo4j_conn.close,5,STATIC_DISPATCH,flask.py:<module>.request.<operator>.fieldAccess;<operator>.fieldAccess,80,<operator>.fieldAccess,<operator>.fieldAccess,0,,,ANY
+30064771205,CALL,-1,,neo4j_conn.close(),5,DYNAMIC_DISPATCH,Neo4jConnection.<returnValue>.connect.close,80,main.py:<module>.Neo4jConnection.connect.close,close,3,,,ANY
+30064771206,CALL,-1,,recommendations.to_dict,28,STATIC_DISPATCH,flask.py:<module>.request.<operator>.fieldAccess;<operator>.fieldAccess,81,<operator>.fieldAccess,<operator>.fieldAccess,0,,,ANY
+30064771207,CALL,2,,recommendations.to_dict(orient = 'records'),28,DYNAMIC_DISPATCH,,81,pandas.py:<module>.DataFrame.<returnValue>.to_dict,to_dict,2,,,ANY
+30064771208,CALL,-1,,recommendations_data = recommendations.to_dict(orient = 'records'),5,STATIC_DISPATCH,,81,<operator>.assignment,<operator>.assignment,4,,,ANY
+30064771209,CALL,1,,"render_template('index.html', college_name = college_name, recommendations = recommendations_data)",12,DYNAMIC_DISPATCH,,83,flask.py:<module>.render_template,render_template,1,,,ANY
+30064771210,CALL,-1,methods,['POST'],34,STATIC_DISPATCH,,72,<operator>.listLiteral,<operator>.listLiteral,3,,,ANY
+30064771211,CALL,-1,,app.route,2,STATIC_DISPATCH,flask.py:<module>.request.<operator>.fieldAccess;<operator>.fieldAccess,72,<operator>.fieldAccess,<operator>.fieldAccess,0,,,ANY
+30064771212,CALL,-1,,"app.route('/recommend', methods = ['POST'])",2,DYNAMIC_DISPATCH,,72,flask.py:<module>.Flask.route,route,0,,,ANY
+30064771213,CALL,2,,"app.route('/recommend', methods = ['POST'])(def recommend(...))",2,DYNAMIC_DISPATCH,,72,<unknownFullName>,,2,,,ANY
+30064771214,CALL,-1,,"recommend = app.route('/recommend', methods = ['POST'])(def recommend(...))",1,STATIC_DISPATCH,,73,<operator>.assignment,<operator>.assignment,20,,,ANY
+30064771215,CALL,-1,,"similarity_query = '''
+MATCH (u1:University), (u2:University)
+WHERE id(u1) < id(u2)
+WITH u1, u2,
+     gds.similarity.euclidean(
+         [u1.actAvg, u1.satAvg, u1.acceptanceRate, u1.hsGpaAvg, u1.rankingDisplayRank, u1.businessRepScore, u1.engineeringRepScore],
+         [u2.actAvg, u2.satAvg, u2.acceptanceRate, u2.hsGpaAvg, u2.rankingDisplayRank, u2.businessRepScore, u2.engineeringRepScore]
+     ) AS euclideanDistance
+MERGE (u1)-[similarity:SIMILARITY_EDGE]->(u2)
+ON CREATE SET similarity.euclideanDistance = euclideanDistance;
+'''",1,STATIC_DISPATCH,,86,<operator>.assignment,<operator>.assignment,21,,,ANY
+30064771216,CALL,-1,,neo4j_conn.query,1,STATIC_DISPATCH,flask.py:<module>.request.<operator>.fieldAccess;<operator>.fieldAccess,97,<operator>.fieldAccess,<operator>.fieldAccess,0,,,ANY
+30064771217,CALL,-1,,neo4j_conn.query(similarity_query),1,DYNAMIC_DISPATCH,Neo4jConnection.<returnValue>.connect.query,97,main.py:<module>.Neo4jConnection.connect.query,query,22,,,ANY
+30064771218,CALL,-1,,"graph_creation_query = """"""
+// Check if the graph exists
+CALL gds.graph.exists('myGraph') 
+YIELD exists AS graphExists
+
+// If the graph does not exist, create it
+WITH 'myGraph' AS graphToCreate, graphExists
+WHERE NOT graphExists
+CALL gds.graph.project(graphToCreate, 'University', 'SIMILARITY_EDGE', {
+  nodeProperties: ['actAvg', 'satAvg', 'acceptanceRate', 'hsGpaAvg', 'rankingDisplayRank', 'businessRepScore', 'engineeringRepScore']
+}) YIELD graphName, nodeCount, relationshipCount
+RETURN graphName, nodeCount, relationshipCount;
+""""""",1,STATIC_DISPATCH,,101,<operator>.assignment,<operator>.assignment,23,,,ANY
+30064771219,CALL,-1,,neo4j_conn.query,1,STATIC_DISPATCH,flask.py:<module>.request.<operator>.fieldAccess;<operator>.fieldAccess,114,<operator>.fieldAccess,<operator>.fieldAccess,0,,,ANY
+30064771220,CALL,-1,,neo4j_conn.query(graph_creation_query),1,DYNAMIC_DISPATCH,Neo4jConnection.<returnValue>.connect.query,114,main.py:<module>.Neo4jConnection.connect.query,query,24,,,ANY
+30064771221,CALL,-1,,"scale_features_query = '''
+MATCH (n)
+WHERE n.scaledProperties IS NOT NULL
+CALL gds.alpha.scaleProperties.mutate('myGraph', {
+  nodeProperties: ['actAvg', 'satAvg', 'acceptanceRate', 'hsGpaAvg', 'rankingDisplayRank', 'businessRepScore', 'engineeringRepScore'],
+  scaler: ""MinMax"",
+  mutateProperty: ""scaledProperties""
+})
+YIELD nodePropertiesWritten
+RETURN nodePropertiesWritten;
+'''",1,STATIC_DISPATCH,,117,<operator>.assignment,<operator>.assignment,25,,,ANY
+30064771222,CALL,-1,,neo4j_conn.query,1,STATIC_DISPATCH,flask.py:<module>.request.<operator>.fieldAccess;<operator>.fieldAccess,129,<operator>.fieldAccess,<operator>.fieldAccess,0,,,ANY
+30064771223,CALL,-1,,neo4j_conn.query(scale_features_query),1,DYNAMIC_DISPATCH,Neo4jConnection.<returnValue>.connect.query,129,main.py:<module>.Neo4jConnection.connect.query,query,26,,,ANY
+30064771224,CALL,2,,"f""""""
+    CALL gds.knn.stream('myGraph', {{
+        topK: 5,
+        nodeProperties: ['actAvg', 'satAvg', 'acceptanceRate', 'hsGpaAvg', 'rankingDisplayRank', 'businessRepScore', 'engineeringRepScore'],
+        randomSeed: 1337,
+        concurrency: 1,
+        sampleRate: 1.0,
+        deltaThreshold: 0.0
+    }})
+    YIELD node1, node2, similarity
+    WITH gds.util.asNode(node1) AS university1, gds.util.asNode(node2) AS university2, similarity
+
+    // Use the parameter in the WHERE clause
+    WHERE university1.name = $college_name
+
+    RETURN university1.name AS University1, university2.name AS University2, similarity
+    ORDER BY similarity DESCENDING, University1, University2;
+    """"""",13,STATIC_DISPATCH,,133,<operator>.formatString,<operator>.formatString,2,,,ANY
+30064771225,CALL,-1,,"query = f""""""
+    CALL gds.knn.stream('myGraph', {{
+        topK: 5,
+        nodeProperties: ['actAvg', 'satAvg', 'acceptanceRate', 'hsGpaAvg', 'rankingDisplayRank', 'businessRepScore', 'engineeringRepScore'],
+        randomSeed: 1337,
+        concurrency: 1,
+        sampleRate: 1.0,
+        deltaThreshold: 0.0
+    }})
+    YIELD node1, node2, similarity
+    WITH gds.util.asNode(node1) AS university1, gds.util.asNode(node2) AS university2, similarity
+
+    // Use the parameter in the WHERE clause
+    WHERE university1.name = $college_name
+
+    RETURN university1.name AS University1, university2.name AS University2, similarity
+    ORDER BY similarity DESCENDING, University1, University2;
+    """"""",5,STATIC_DISPATCH,,133,<operator>.assignment,<operator>.assignment,1,,,ANY
+30064771226,CALL,2,,{},18,STATIC_DISPATCH,,151,<operator>.dictLiteral,<operator>.dictLiteral,2,,,ANY
+30064771227,CALL,-1,,tmp9 = {},18,STATIC_DISPATCH,,151,<operator>.assignment,<operator>.assignment,1,,,ANY
+30064771228,CALL,1,,tmp9['college_name'],18,STATIC_DISPATCH,,151,<operator>.indexAccess,<operator>.indexAccess,1,,,ANY
+30064771229,CALL,-1,,tmp9['college_name'] = college_name,18,STATIC_DISPATCH,,151,<operator>.assignment,<operator>.assignment,2,,,ANY
+30064771230,CALL,-1,,"parameters = tmp9 = {}
+tmp9['college_name'] = college_name
+tmp9",5,STATIC_DISPATCH,,151,<operator>.assignment,<operator>.assignment,2,,,ANY
+30064771231,CALL,-1,,connection.query,14,STATIC_DISPATCH,flask.py:<module>.request.<operator>.fieldAccess;<operator>.fieldAccess,152,<operator>.fieldAccess,<operator>.fieldAccess,0,,,ANY
+30064771232,CALL,2,,"connection.query(query, parameters)",14,DYNAMIC_DISPATCH,,152,<unknownFullName>,query,2,,,ANY
+30064771233,CALL,-1,,"result = connection.query(query, parameters)",5,STATIC_DISPATCH,,152,<operator>.assignment,<operator>.assignment,3,,,ANY
+30064771234,CALL,-1,,pd.DataFrame,12,STATIC_DISPATCH,flask.py:<module>.request.<operator>.fieldAccess;<operator>.fieldAccess,153,<operator>.fieldAccess,<operator>.fieldAccess,0,,,ANY
+30064771235,CALL,1,,pd.DataFrame(result),12,DYNAMIC_DISPATCH,pandas.py:<module>.DataFrame,153,pandas.py:<module>.DataFrame.__init__,DataFrame,1,,,ANY
+30064771236,CALL,-1,,get_recommendations = def get_recommendations(...),1,STATIC_DISPATCH,,132,<operator>.assignment,<operator>.assignment,27,,,ANY
+30064771237,CALL,-1,,__name__ == '__main__',4,STATIC_DISPATCH,,156,<operator>.equals,<operator>.equals,1,,,ANY
+30064771238,CALL,-1,,app.run,5,STATIC_DISPATCH,flask.py:<module>.request.<operator>.fieldAccess;<operator>.fieldAccess,157,<operator>.fieldAccess,<operator>.fieldAccess,0,,,ANY
+30064771239,CALL,-1,,"app.run(debug = True, host = '127.0.0.1', port = 8080)",5,DYNAMIC_DISPATCH,,157,flask.py:<module>.Flask.run,run,1,,,ANY

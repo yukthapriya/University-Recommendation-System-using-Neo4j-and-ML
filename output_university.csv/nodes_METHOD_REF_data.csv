@@ -1,0 +1,13 @@
+124554051584,METHOD_REF,-1,,def <body>(...),1,,12,main.py:<module>.Neo4jConnection.<body>,0,,main.py:<module>.Neo4jConnection.<body>
+124554051585,METHOD_REF,2,,def __init__(...),5,,13,main.py:<module>.Neo4jConnection.__init__,2,,main.py:<module>.Neo4jConnection.__init__
+124554051586,METHOD_REF,2,,def connect(...),5,,19,main.py:<module>.Neo4jConnection.connect,2,,main.py:<module>.Neo4jConnection.connect
+124554051587,METHOD_REF,2,,def close(...),5,,23,main.py:<module>.Neo4jConnection.close,2,,main.py:<module>.Neo4jConnection.close
+124554051588,METHOD_REF,2,,def query(...),5,,27,main.py:<module>.Neo4jConnection.query,2,,main.py:<module>.Neo4jConnection.query
+124554051589,METHOD_REF,1,,def index(...),1,,69,main.py:<module>.index,1,,main.py:<module>.index
+124554051590,METHOD_REF,1,,def recommend(...),1,,73,main.py:<module>.recommend,1,,main.py:<module>.recommend
+124554051591,METHOD_REF,2,,def get_recommendations(...),1,,132,main.py:<module>.get_recommendations,2,,main.py:<module>.get_recommendations
+124554051592,METHOD_REF,1,,index,1,,69,main.py:<module>.index,-1,,<empty>
+124554051593,METHOD_REF,1,,recommend,1,,73,main.py:<module>.recommend,-1,,<empty>
+124554051594,METHOD_REF,5,,query,5,,27,main.py:<module>.Neo4jConnection.query,-1,,<empty>
+124554051595,METHOD_REF,1,,query,5,,27,main.py:<module>.Neo4jConnection.query,-1,,<empty>
+124554051596,METHOD_REF,4,,query,35,,30,main.py:<module>.Neo4jConnection.query,-1,,<empty>

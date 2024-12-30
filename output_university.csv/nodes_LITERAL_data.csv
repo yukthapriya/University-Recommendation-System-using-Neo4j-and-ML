@@ -1,0 +1,127 @@
+90194313216,LITERAL,1,,flask,1,__builtin.str,3,1,,ANY
+90194313217,LITERAL,2,,Flask,1,__builtin.str,3,2,,ANY
+90194313218,LITERAL,1,,flask,1,__builtin.str,3,1,,ANY
+90194313219,LITERAL,2,,render_template,1,__builtin.str,3,2,,ANY
+90194313220,LITERAL,1,,flask,1,__builtin.str,3,1,,ANY
+90194313221,LITERAL,2,,request,1,__builtin.str,3,2,,ANY
+90194313222,LITERAL,1,,neo4j,1,__builtin.str,4,1,,ANY
+90194313223,LITERAL,2,,GraphDatabase,1,__builtin.str,4,2,,ANY
+90194313224,LITERAL,1,,,1,__builtin.str,5,1,,ANY
+90194313225,LITERAL,2,,pandas,1,__builtin.str,5,2,,ANY
+90194313226,LITERAL,3,,pd,1,__builtin.str,5,3,,ANY
+90194313227,LITERAL,1,,sklearn.preprocessing,1,__builtin.str,6,1,,ANY
+90194313228,LITERAL,2,,MinMaxScaler,1,__builtin.str,6,2,,ANY
+90194313229,LITERAL,2,,None,24,,17,2,,__builtin.None
+90194313230,LITERAL,2,,None,32,,24,2,,ANY
+90194313231,LITERAL,2,,None,36,,28,2,,ANY
+90194313232,LITERAL,2,,"""Driver not initialized!""",42,__builtin.str,28,2,,ANY
+90194313233,LITERAL,1,,,1,__builtin.str,36,1,,ANY
+90194313234,LITERAL,2,,os,1,__builtin.str,36,2,,ANY
+90194313235,LITERAL,2,,'\\university_data.csv',23,__builtin.str,39,2,,ANY
+90194313236,LITERAL,1,,'primaryPhoto',11,__builtin.str,42,1,,ANY
+90194313237,LITERAL,2,,'primaryPhotoThumb',27,__builtin.str,42,2,,ANY
+90194313238,LITERAL,3,,'sortName',48,__builtin.str,42,3,,ANY
+90194313239,LITERAL,4,,'urlName',10,__builtin.str,43,4,,ANY
+90194313240,LITERAL,5,,'aliasNames',21,__builtin.str,43,5,,ANY
+90194313241,LITERAL,6,,'nonResponderText',35,__builtin.str,43,6,,ANY
+90194313242,LITERAL,7,,'nonResponder',10,__builtin.str,44,7,,ANY
+90194313243,LITERAL,8,,'rankingSortRank',26,__builtin.str,44,8,,ANY
+90194313244,LITERAL,9,,'overallRank',45,__builtin.str,44,9,,ANY
+90194313245,LITERAL,10,,'rankingRankStatus',10,__builtin.str,45,10,,ANY
+90194313246,LITERAL,11,,'xwalkId',31,__builtin.str,45,11,,ANY
+90194313247,LITERAL,12,,'primaryKey',42,__builtin.str,45,12,,ANY
+90194313248,LITERAL,13,,'rankingNoteText',10,__builtin.str,46,13,,ANY
+90194313249,LITERAL,14,,'rankingNoteCharacter',28,__builtin.str,46,14,,ANY
+90194313250,LITERAL,15,,'rankingMaxPossibleScore',51,__builtin.str,46,15,,ANY
+90194313251,LITERAL,16,,'rankingIsTied',10,__builtin.str,47,16,,ANY
+90194313252,LITERAL,17,,'ranking',26,__builtin.str,47,17,,ANY
+90194313253,LITERAL,18,,'schoolType',36,__builtin.str,47,18,,ANY
+90194313254,LITERAL,19,,'rankingType',49,__builtin.str,47,19,,ANY
+90194313255,LITERAL,20,,'rankingDisplayName',10,__builtin.str,48,20,,ANY
+90194313256,LITERAL,21,,'region',31,__builtin.str,48,21,,ANY
+90194313257,LITERAL,22,,'isPublic',40,__builtin.str,48,22,,ANY
+90194313258,LITERAL,-1,axis,1,58,__builtin.int,48,3,,ANY
+90194313259,LITERAL,-1,inplace,True,69,__builtin.int,48,4,,ANY
+90194313260,LITERAL,1,,'act-avg',20,__builtin.str,52,1,,ANY
+90194313261,LITERAL,2,,'sat-avg',31,__builtin.str,52,2,,ANY
+90194313262,LITERAL,3,,'acceptance-rate',42,__builtin.str,52,3,,ANY
+90194313263,LITERAL,4,,'hs-gpa-avg',60,__builtin.str,52,4,,ANY
+90194313264,LITERAL,5,,'businessRepScore',73,__builtin.str,52,5,,ANY
+90194313265,LITERAL,6,,'engineeringRepScore',92,__builtin.str,52,6,,ANY
+90194313266,LITERAL,7,,'enrollment',114,__builtin.str,52,7,,ANY
+90194313267,LITERAL,8,,'rankingDisplayScore',127,__builtin.str,52,8,,ANY
+90194313268,LITERAL,-1,inplace,True,44,__builtin.int,55,3,,ANY
+90194313269,LITERAL,1,,'percent-receiving-aid',113,__builtin.str,57,1,,ANY
+90194313270,LITERAL,2,,'cost-after-aid',138,__builtin.str,57,2,,ANY
+90194313271,LITERAL,1,,'percent-receiving-aid',57,__builtin.str,57,1,,ANY
+90194313272,LITERAL,2,,'cost-after-aid',82,__builtin.str,57,2,,ANY
+90194313273,LITERAL,1,,'percent-receiving-aid',6,__builtin.str,57,1,,ANY
+90194313274,LITERAL,2,,'cost-after-aid',31,__builtin.str,57,2,,ANY
+90194313275,LITERAL,2,,"""bolt://localhost:7687""",7,__builtin.str,61,2,,__builtin.str
+90194313276,LITERAL,2,,"""neo4j""",12,__builtin.str,62,2,,__builtin.str
+90194313277,LITERAL,2,,"""root@12345""",12,__builtin.str,63,2,,__builtin.str
+90194313278,LITERAL,1,,'index.html',28,__builtin.str,70,1,,ANY
+90194313279,LITERAL,1,,'/',12,__builtin.str,68,2,,ANY
+90194313280,LITERAL,2,,'college_name',33,__builtin.str,74,2,,ANY
+90194313281,LITERAL,-1,orient,'records',59,__builtin.str,81,2,,ANY
+90194313282,LITERAL,1,,'index.html',28,__builtin.str,83,1,,ANY
+90194313283,LITERAL,1,,'/recommend',12,__builtin.str,72,2,,ANY
+90194313284,LITERAL,1,,'POST',35,__builtin.str,72,1,,ANY
+90194313285,LITERAL,2,,"'''
+MATCH (u1:University), (u2:University)
+WHERE id(u1) < id(u2)
+WITH u1, u2,
+     gds.similarity.euclidean(
+         [u1.actAvg, u1.satAvg, u1.acceptanceRate, u1.hsGpaAvg, u1.rankingDisplayRank, u1.businessRepScore, u1.engineeringRepScore],
+         [u2.actAvg, u2.satAvg, u2.acceptanceRate, u2.hsGpaAvg, u2.rankingDisplayRank, u2.businessRepScore, u2.engineeringRepScore]
+     ) AS euclideanDistance
+MERGE (u1)-[similarity:SIMILARITY_EDGE]->(u2)
+ON CREATE SET similarity.euclideanDistance = euclideanDistance;
+'''",20,__builtin.str,86,2,,__builtin.str
+90194313286,LITERAL,2,,"""""""
+// Check if the graph exists
+CALL gds.graph.exists('myGraph') 
+YIELD exists AS graphExists
+
+// If the graph does not exist, create it
+WITH 'myGraph' AS graphToCreate, graphExists
+WHERE NOT graphExists
+CALL gds.graph.project(graphToCreate, 'University', 'SIMILARITY_EDGE', {
+  nodeProperties: ['actAvg', 'satAvg', 'acceptanceRate', 'hsGpaAvg', 'rankingDisplayRank', 'businessRepScore', 'engineeringRepScore']
+}) YIELD graphName, nodeCount, relationshipCount
+RETURN graphName, nodeCount, relationshipCount;
+""""""",24,__builtin.str,101,2,,__builtin.str
+90194313287,LITERAL,2,,"'''
+MATCH (n)
+WHERE n.scaledProperties IS NOT NULL
+CALL gds.alpha.scaleProperties.mutate('myGraph', {
+  nodeProperties: ['actAvg', 'satAvg', 'acceptanceRate', 'hsGpaAvg', 'rankingDisplayRank', 'businessRepScore', 'engineeringRepScore'],
+  scaler: ""MinMax"",
+  mutateProperty: ""scaledProperties""
+})
+YIELD nodePropertiesWritten
+RETURN nodePropertiesWritten;
+'''",24,__builtin.str,117,2,,__builtin.str
+90194313288,LITERAL,1,,"
+    CALL gds.knn.stream('myGraph', {{
+        topK: 5,
+        nodeProperties: ['actAvg', 'satAvg', 'acceptanceRate', 'hsGpaAvg', 'rankingDisplayRank', 'businessRepScore', 'engineeringRepScore'],
+        randomSeed: 1337,
+        concurrency: 1,
+        sampleRate: 1.0,
+        deltaThreshold: 0.0
+    }})
+    YIELD node1, node2, similarity
+    WITH gds.util.asNode(node1) AS university1, gds.util.asNode(node2) AS university2, similarity
+
+    // Use the parameter in the WHERE clause
+    WHERE university1.name = $college_name
+
+    RETURN university1.name AS University1, university2.name AS University2, similarity
+    ORDER BY similarity DESCENDING, University1, University2;
+    ",17,__builtin.str,133,1,,ANY
+90194313289,LITERAL,2,,'college_name',19,__builtin.str,151,2,,ANY
+90194313290,LITERAL,2,,'__main__',16,__builtin.str,156,2,,ANY
+90194313291,LITERAL,-1,debug,True,19,__builtin.int,157,2,,ANY
+90194313292,LITERAL,-1,host,'127.0.0.1',30,__builtin.str,157,3,,ANY
+90194313293,LITERAL,-1,port,8080,47,__builtin.int,157,4,,ANY
