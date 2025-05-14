@@ -78,7 +78,3 @@ Graph visualizations provided intuitive insights into how universities relate to
 ## Conclusion
 
 The Neo4j-based university recommendation system demonstrates the power of graph databases in transforming static, generic recommendations into dynamic, personalized suggestions. By leveraging Cypher queries and graph-based modeling, the system effectively identifies similar universities tailored to user preferences.
-
-## Future Work
-
-Future work will explore integrating machine learning models for further refinement and scalability.
